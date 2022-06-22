@@ -9,6 +9,12 @@ function App() {
       <button   type="button" className="botao"><FiSearch size={25} color="#000000"/></button>
      </div>
 
+    <main className="main">
+      <h2>CEP: 05848-000</h2>
+
+      <span>Rua Teste</span>
+      <span>Complemento, Bairro, Cidade Teste</span>
+    </main>
     </div>
   );
 }
