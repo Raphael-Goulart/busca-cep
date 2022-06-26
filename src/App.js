@@ -1,4 +1,6 @@
 import { FiSearch } from 'react-icons/fi';
+import './style.css';
+
 function App() {
   return (
     <div className="container">
