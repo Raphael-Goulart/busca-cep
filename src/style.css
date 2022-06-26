@@ -1,0 +1,33 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   }
+   
+   .title{
+     color: #3d3b3b;
+     font-size: 30px;
+     animation: animacaoTitulo 1s; /*puxado a animacao do keyframe e adicionado um tempo de execução */
+   }
+
+   @keyframes animacaoTitulo {   /*fará uma animação de - para from-to*/
+    from { 
+        transform: rotateX(90deg);
+   }
+
+   to{
+    transform: rotateX(0deg);
+   }
+   
+}
+
+.containerInput {
+    background-color: #3d3b3b;
+    padding: 10px;
+    margin: 34px 0;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px black;
+}
