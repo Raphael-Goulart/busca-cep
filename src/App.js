@@ -7,8 +7,8 @@ function App() {
       <h1 className="title">Buscador CEP</h1>
       
      <div className="containerInput">
-      <input type="text" placeholder="Digite seu CEP"></input>
-      <button   type="button" className="botao"><FiSearch size={25} color="#000000"/></button>
+      <input type="text" placeholder="Digite seu CEP" maxLength="9"></input>
+      <button   type="button" className="buttonSearch"><FiSearch size={25} color="#000000"/></button>
      </div>
 
     <main className="main">
