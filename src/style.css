@@ -9,10 +9,10 @@
    .title{
      color: #3d3b3b;
      font-size: 30px;
-     animation: animacaoTitulo 1s; /*puxado a animacao do keyframe e adicionado um tempo de execução */
+     animation: animacaoTitulo 1s; 
    }
 
-   @keyframes animacaoTitulo {   /*fará uma animação de - para from-to*/
+   @keyframes animacaoTitulo {   
     from { 
         transform: rotateX(90deg);
    }
